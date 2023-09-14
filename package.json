@@ -2,9 +2,11 @@
   "name": "boilerplatejs",
   "version": "1.0.0",
   "description": "Este repositorio es tu punto de partida ideal para proyectos basados en JavaScript puro (Vanilla JS). Está equipado con herramientas modernas para optimizar y mejorar tu experiencia de desarrollo.",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,12 @@
   "bugs": {
     "url": "https://github.com/WebDevWhispers/Boilerplate-JS/issues"
   },
-  "homepage": "https://github.com/WebDevWhispers/Boilerplate-JS#readme"
+  "homepage": "https://github.com/WebDevWhispers/Boilerplate-JS#readme",
+
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "vite": "^4.4.5"
+  }
 }
