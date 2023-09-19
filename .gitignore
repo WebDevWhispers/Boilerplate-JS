@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# You should ignore .env and .env.* files if you check your code into a repository with multiple contributors and you have confidential information in that file
+# .env
+# .env.*
