@@ -1,0 +1,40 @@
+{
+  "name": "boilerplatejs",
+  "version": "1.0.0",
+  "description": "Este repositorio es tu punto de partida ideal para proyectos basados en JavaScript puro (Vanilla JS). Está equipado con herramientas modernas para optimizar y mejorar tu experiencia de desarrollo.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "prepare": "husky install",
+    "lint": "eslint 'src/**/*.js' --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WebDevWhispers/Boilerplate-JS.git"
+  },
+  "keywords": [
+    "JS"
+  ],
+  "author": "WebDevWhispers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WebDevWhispers/Boilerplate-JS/issues"
+  },
+  "homepage": "https://github.com/WebDevWhispers/Boilerplate-JS#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.7.1",
+    "@commitlint/config-conventional": "^17.7.0",
+    "eslint": "^8.48.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.28.1",
+    "husky": "^8.0.3",
+    "lint-staged": "^14.0.1",
+    "prettier": "^3.0.3",
+    "vite": "^4.4.5"
+  }
+}

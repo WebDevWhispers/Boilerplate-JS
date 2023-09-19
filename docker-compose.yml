@@ -1,0 +1,9 @@
+services:
+  node:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - ${HOST_PORT}:${CONTAINER_PORT}
+    volumes:
+      - .:/usr/src/node/app
