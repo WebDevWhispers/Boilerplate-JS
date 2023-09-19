@@ -1,0 +1,19 @@
+name: Testing
+
+on: push
+
+jobs:
+  test:
+    name: Tests passes
+    runs-on: ubuntu-latest
+
+# It's commented as there are no tests for now
+#     steps:
+#       - name: ⬇ Git checkout
+#         uses: actions/checkout@v4
+
+#       - name: 💾 Install modules
+#         run: npm ci
+
+#       - name: 🧪 Testing
+#         run: npm test
