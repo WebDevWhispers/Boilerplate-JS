@@ -1,6 +1,6 @@
 name: Code audit
 
-on: [push, pull_request]
+on: push
 
 jobs:
   audit:
