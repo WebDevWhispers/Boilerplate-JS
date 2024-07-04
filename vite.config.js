@@ -10,10 +10,6 @@ export default {
   },
   server: {
     host: true,
-    port: process.env.VITE_PORT, // This is the port which we will use in docker
-    // add the next lines if you're using windows and hot reload doesn't work
-    // watch: {
-    //   usePolling: true
-    // }
+    port: process.env.VITE_PORT, // This is the port which we will use in our application
   },
 };
