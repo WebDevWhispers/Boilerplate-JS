@@ -64,13 +64,6 @@ ESLint es una herramienta de análisis de código estático que identifica y rep
 
 Husky facilita la integración de hooks en git para mejorar el proceso de commits y pushes.
 
-Instalación:
-
-```bash
-npm install husky --save-dev
-npm run prepare
-```
-
 A continuación se explican tres hooks configurados para este proyecto: pre-commit, commit-msg y pre-push.
 
 - **pre-commit**: Este hook se ejecuta antes de que se realice un commit. El script verifica que la rama actual no sea main o master y, si lo es, impide el commit. Luego ejecuta lint-staged para revisar y formatear los archivos que están en staging.
